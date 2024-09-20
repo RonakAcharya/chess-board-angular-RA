@@ -1,0 +1,7 @@
+<div>
+  <mat-grid-list cols="8" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let task of tasks;let i = index;" [style]="{'border' : i % 2 == 0 ? '1px solid white' : ' 1px solid black'}">
+        <diV class="div-fill-color"  [style]="{'background-color' : filterIndex(i) ? 'red' : isBlack(i) ? 'black' : 'white', 'border' : filterIndex(i) ? '4px solid yellow' : '1px solid white'}" (click)="changeBackgroundColor(i)"></diV>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

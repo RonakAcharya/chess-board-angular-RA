@@ -1,0 +1,19 @@
+.div-fill-color{
+    background-color: black;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    /* max-width: calc(100%/8); */
+}
+
+.div-unfill-color{
+    background-color: white;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+
+}
+
+mat-grid-tile{
+  border: 1px solid black;
+}
